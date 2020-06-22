@@ -33,9 +33,9 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
-open class CrudObject: OTTObjectSupportNullable {
+open class CrudObject: ObjectBase {
 
-	public class CrudObjectTokenizer: OTTObjectSupportNullable.OTTObjectSupportNullableTokenizer {
+	public class CrudObjectTokenizer: ObjectBase.ObjectBaseTokenizer {
 	}
 
 

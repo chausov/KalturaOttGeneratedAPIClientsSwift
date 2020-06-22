@@ -138,12 +138,6 @@ open class NotificationsPartnerSettings: ObjectBase {
 				return self.append("smsEnabled") 
 			}
 		}
-		
-		public var iotEnabled: BaseTokenizedObject {
-			get {
-				return self.append("iotEnabled") 
-			}
-		}
 	}
 
 	/**  Push notification capability is enabled for the account  */
@@ -180,8 +174,6 @@ open class NotificationsPartnerSettings: ObjectBase {
 	public var mailNotificationAdapterId: Int64? = nil
 	/**  SMS capability is enabled for the account  */
 	public var smsEnabled: Bool? = nil
-	/**  IOT capability is enabled for the account  */
-	public var iotEnabled: Bool? = nil
 
 
 	public func setMultiRequestToken(pushNotificationEnabled: String) {
@@ -252,10 +244,6 @@ open class NotificationsPartnerSettings: ObjectBase {
 		self.dict["smsEnabled"] = smsEnabled
 	}
 	
-	public func setMultiRequestToken(iotEnabled: String) {
-		self.dict["iotEnabled"] = iotEnabled
-	}
-	
 	internal override func populate(_ dict: [String: Any]) throws {
 		try super.populate(dict);
 		// set members values:
@@ -309,9 +297,6 @@ open class NotificationsPartnerSettings: ObjectBase {
 		}
 		if dict["smsEnabled"] != nil {
 			smsEnabled = dict["smsEnabled"] as? Bool
-		}
-		if dict["iotEnabled"] != nil {
-			iotEnabled = dict["iotEnabled"] as? Bool
 		}
 
 	}
@@ -368,9 +353,6 @@ open class NotificationsPartnerSettings: ObjectBase {
 		}
 		if(smsEnabled != nil) {
 			dict["smsEnabled"] = smsEnabled!
-		}
-		if(iotEnabled != nil) {
-			dict["iotEnabled"] = iotEnabled!
 		}
 		return dict
 	}

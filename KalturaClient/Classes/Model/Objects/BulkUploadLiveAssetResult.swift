@@ -33,15 +33,58 @@
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
 
-open class BulkUploadLiveAssetResult: BulkUploadMediaAssetResult {
+open class BulkUploadLiveAssetResult: BulkUploadResult {
 
-	public class BulkUploadLiveAssetResultTokenizer: BulkUploadMediaAssetResult.BulkUploadMediaAssetResultTokenizer {
+	public class BulkUploadLiveAssetResultTokenizer: BulkUploadResult.BulkUploadResultTokenizer {
+		
+		public var id: BaseTokenizedObject {
+			get {
+				return self.append("id") 
+			}
+		}
+		
+		public var externalEpgIngestId: BaseTokenizedObject {
+			get {
+				return self.append("externalEpgIngestId") 
+			}
+		}
+		
+		public var programs: ArrayTokenizedObject<BulkUploadProgramAssetResult.BulkUploadProgramAssetResultTokenizer> {
+			get {
+				return ArrayTokenizedObject<BulkUploadProgramAssetResult.BulkUploadProgramAssetResultTokenizer>(self.append("programs"))
+			} 
+		}
 	}
 
+	/**  The internal kaltura channel id  */
+	public var id: Int? = nil
+	/**  Indicates the epg asset object id in the bulk file  */
+	public var externalEpgIngestId: String? = nil
+	/**  List of programs that were ingested to the channel  */
+	public var programs: Array<BulkUploadProgramAssetResult>? = nil
 
 
+	public func setMultiRequestToken(id: String) {
+		self.dict["id"] = id
+	}
+	
+	public func setMultiRequestToken(externalEpgIngestId: String) {
+		self.dict["externalEpgIngestId"] = externalEpgIngestId
+	}
+	
 	internal override func populate(_ dict: [String: Any]) throws {
 		try super.populate(dict);
+		// set members values:
+		if dict["id"] != nil {
+			id = dict["id"] as? Int
+		}
+		if dict["externalEpgIngestId"] != nil {
+			externalEpgIngestId = dict["externalEpgIngestId"] as? String
+		}
+		if dict["programs"] != nil {
+			programs = try JSONParser.parse(array: dict["programs"] as! [Any])
+		}
+
 	}
 
 }

@@ -114,12 +114,6 @@ open class Announcement: ObjectBase {
 				return self.append("includeSms") 
 			}
 		}
-		
-		public var includeIot: BaseTokenizedObject {
-			get {
-				return self.append("includeIot") 
-			}
-		}
 	}
 
 	/**  Announcement name  */
@@ -148,8 +142,6 @@ open class Announcement: ObjectBase {
 	public var mailSubject: String? = nil
 	/**  Include SMS  */
 	public var includeSms: Bool? = nil
-	/**  Include IOT  */
-	public var includeIot: Bool? = nil
 
 
 	public func setMultiRequestToken(name: String) {
@@ -204,10 +196,6 @@ open class Announcement: ObjectBase {
 		self.dict["includeSms"] = includeSms
 	}
 	
-	public func setMultiRequestToken(includeIot: String) {
-		self.dict["includeIot"] = includeIot
-	}
-	
 	internal override func populate(_ dict: [String: Any]) throws {
 		try super.populate(dict);
 		// set members values:
@@ -250,9 +238,6 @@ open class Announcement: ObjectBase {
 		if dict["includeSms"] != nil {
 			includeSms = dict["includeSms"] as? Bool
 		}
-		if dict["includeIot"] != nil {
-			includeIot = dict["includeIot"] as? Bool
-		}
 
 	}
 
@@ -290,9 +275,6 @@ open class Announcement: ObjectBase {
 		}
 		if(includeSms != nil) {
 			dict["includeSms"] = includeSms!
-		}
-		if(includeIot != nil) {
-			dict["includeIot"] = includeIot!
 		}
 		return dict
 	}

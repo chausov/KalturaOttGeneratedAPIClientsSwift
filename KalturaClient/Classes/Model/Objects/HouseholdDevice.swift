@@ -34,9 +34,9 @@
  */
 
 /**  Device details  */
-open class HouseholdDevice: OTTObjectSupportNullable {
+open class HouseholdDevice: ObjectBase {
 
-	public class HouseholdDeviceTokenizer: OTTObjectSupportNullable.OTTObjectSupportNullableTokenizer {
+	public class HouseholdDeviceTokenizer: ObjectBase.ObjectBaseTokenizer {
 		
 		public var householdId: BaseTokenizedObject {
 			get {
@@ -83,12 +83,6 @@ open class HouseholdDevice: OTTObjectSupportNullable {
 		public func drm<T: CustomDrmPlaybackPluginData.CustomDrmPlaybackPluginDataTokenizer>() -> T {
 			return T(self.append("drm"))
 		}
-		
-		public var externalId: BaseTokenizedObject {
-			get {
-				return self.append("externalId") 
-			}
-		}
 	}
 
 	/**  Household identifier  */
@@ -107,8 +101,6 @@ open class HouseholdDevice: OTTObjectSupportNullable {
 	public var deviceFamilyId: Int64? = nil
 	/**  Device DRM data  */
 	public var drm: CustomDrmPlaybackPluginData? = nil
-	/**  external Id  */
-	public var externalId: String? = nil
 
 
 	public func setMultiRequestToken(householdId: String) {
@@ -139,10 +131,6 @@ open class HouseholdDevice: OTTObjectSupportNullable {
 		self.dict["deviceFamilyId"] = deviceFamilyId
 	}
 	
-	public func setMultiRequestToken(externalId: String) {
-		self.dict["externalId"] = externalId
-	}
-	
 	internal override func populate(_ dict: [String: Any]) throws {
 		try super.populate(dict);
 		// set members values:
@@ -169,9 +157,6 @@ open class HouseholdDevice: OTTObjectSupportNullable {
 		}
 		if dict["drm"] != nil {
 		drm = try JSONParser.parse(object: dict["drm"] as! [String: Any])		}
-		if dict["externalId"] != nil {
-			externalId = dict["externalId"] as? String
-		}
 
 	}
 
@@ -191,9 +176,6 @@ open class HouseholdDevice: OTTObjectSupportNullable {
 		}
 		if(activatedOn != nil) {
 			dict["activatedOn"] = activatedOn!
-		}
-		if(externalId != nil) {
-			dict["externalId"] = externalId!
 		}
 		return dict
 	}
