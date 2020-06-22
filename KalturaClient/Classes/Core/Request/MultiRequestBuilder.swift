@@ -172,7 +172,7 @@ extension Dictionary where Key == String {
             }
         }
         
-        result = result.substring(to: result.index(before: result.endIndex))
+        result = String(result[..<result.index(before: result.endIndex)])
         result.append(suffix)
         
         let data = result.data(using: String.Encoding.utf8)
