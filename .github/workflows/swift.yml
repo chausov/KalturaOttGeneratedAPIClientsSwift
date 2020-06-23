@@ -1,0 +1,21 @@
+name: Swift Build and Publish
+
+on:
+  push:
+    branches: '[0-9]+_[0-9]+_[0-9]+'
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update pods repo
+      run: pod repo update
+    - name: Tag
+      run: |
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} sh .github/tag-me.sh
+    - name: Push
+      run: |
+        PODS_USER=${{ secrets.PODS_USER }} PODS_PASS=${{ secrets.PODS_PASS }} sh .github/push-me.sh
