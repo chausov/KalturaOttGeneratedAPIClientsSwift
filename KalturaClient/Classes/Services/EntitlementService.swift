@@ -95,12 +95,12 @@ public final class EntitlementService{
 
 	/**  Cancel a household service subscription at the next renewal. The subscription
 	  stays valid till the next renewal.  */
-	public static func cancelRenewal(subscriptionId: String) -> NullRequestBuilder<CancelRenewalTokenizer> {
-		let request: NullRequestBuilder<CancelRenewalTokenizer> = NullRequestBuilder<CancelRenewalTokenizer>(service: "entitlement", action: "cancelRenewal")
-			.setParam(key: "subscriptionId", value: subscriptionId)
+    public static func cancelRenewal(subscriptionId: String) -> RequestBuilder<Bool, BaseTokenizedObject, CancelRenewalTokenizer> {
+        let request: RequestBuilder<Bool, BaseTokenizedObject, CancelRenewalTokenizer> = RequestBuilder<Bool, BaseTokenizedObject, CancelRenewalTokenizer>(service: "entitlement", action: "cancelRenewal")
+            .setParam(key: "subscriptionId", value: subscriptionId)
 
-		return request
-	}
+        return request
+    }
 
 	public class CancelScheduledSubscriptionTokenizer: ClientTokenizer  {
 		
