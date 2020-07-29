@@ -10,15 +10,32 @@
 		00139DC01F698B22005D49EC /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139DBC1F698ACB005D49EC /* TestConfig.swift */; };
 		002EBA931F7A27F900C7E4F9 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002EBA921F7A27F900C7E4F9 /* MapTest.swift */; };
 		11ED30FC12B8F925214FA63E /* Pods_KalturaClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A828660A1AF9647D2ABD0F59 /* Pods_KalturaClient_Example.framework */; };
+		1E6D22649B61EC790E4A2F0E /* Pods_KalturaClient_Example_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B5C4B236BCF4BF0CAED57 /* Pods_KalturaClient_Example_macOS.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* BaseTest.swift */; };
+		793F5F1526CF4C4730954E47 /* Pods_KalturaClient_Example_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4238C09F2E13639C108636 /* Pods_KalturaClient_Example_macOSTests.framework */; };
 		900A6BCA24A25CEE0030AC87 /* HouseholdTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A6BC924A25CEE0030AC87 /* HouseholdTest.swift */; };
 		90AB8F9124AC92E200A40CFA /* EmptyResultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB8F9024AC92E200A40CFA /* EmptyResultTest.swift */; };
 		90BB1D4A24A09FB500B0A612 /* TestConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00139DBE1F698AE0005D49EC /* TestConfig.plist */; };
+		90C446B524D1B3050020B8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C446B424D1B3050020B8C4 /* AppDelegate.swift */; };
+		90C446B724D1B3050020B8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C446B624D1B3050020B8C4 /* ViewController.swift */; };
+		90C446B924D1B3080020B8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C446B824D1B3080020B8C4 /* Assets.xcassets */; };
+		90C446BC24D1B3080020B8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C446BA24D1B3080020B8C4 /* Main.storyboard */; };
+		90C446D024D1B8C50020B8C4 /* TestConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00139DBE1F698AE0005D49EC /* TestConfig.plist */; };
+		90C446D124D1B8D30020B8C4 /* HouseholdTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A6BC924A25CEE0030AC87 /* HouseholdTest.swift */; };
+		90C446D224D1B8D30020B8C4 /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139DBC1F698ACB005D49EC /* TestConfig.swift */; };
+		90C446D324D1B8D30020B8C4 /* MultiRequestWithPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3AD91F38ACC7001D2A03 /* MultiRequestWithPrimitives.swift */; };
+		90C446D424D1B8D30020B8C4 /* MultiRequestWithArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3AD71F38ACB0001D2A03 /* MultiRequestWithArray.swift */; };
+		90C446D524D1B8D30020B8C4 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A9B1F33293D001D2A03 /* ArrayTest.swift */; };
+		90C446D624D1B8D30020B8C4 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002EBA921F7A27F900C7E4F9 /* MapTest.swift */; };
+		90C446D724D1B8D30020B8C4 /* MultiRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A951F33252B001D2A03 /* MultiRequestTest.swift */; };
+		90C446D824D1B8D30020B8C4 /* PrimitivesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A961F33252B001D2A03 /* PrimitivesTest.swift */; };
+		90C446D924D1B8D30020B8C4 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* BaseTest.swift */; };
+		90C446DA24D1B8D30020B8C4 /* EmptyResultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB8F9024AC92E200A40CFA /* EmptyResultTest.swift */; };
 		C28D3A991F332878001D2A03 /* MultiRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A951F33252B001D2A03 /* MultiRequestTest.swift */; };
 		C28D3A9A1F332880001D2A03 /* PrimitivesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A961F33252B001D2A03 /* PrimitivesTest.swift */; };
 		C28D3A9C1F33293D001D2A03 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D3A9B1F33293D001D2A03 /* ArrayTest.swift */; };
@@ -35,6 +52,13 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = KalturaClient;
 		};
+		90C446C424D1B3080020B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C446B124D1B3050020B8C4;
+			remoteInfo = KalturaClient_Example_macOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +66,10 @@
 		00139DBE1F698AE0005D49EC /* TestConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestConfig.plist; sourceTree = "<group>"; };
 		001416C11F1F892700CD4112 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		002EBA921F7A27F900C7E4F9 /* MapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
+		0C2973FEEE6286FF555C1994 /* Pods-KalturaClient_Example_macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example_macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example_macOSTests/Pods-KalturaClient_Example_macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		114D3481686051612EC5F019 /* Pods-KalturaClient_Example_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example_macOS/Pods-KalturaClient_Example_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		25D0496082CD170A6C7D9E66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		285A512602D36A12E5E768C1 /* Pods-KalturaClient_Example_macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example_macOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example_macOSTests/Pods-KalturaClient_Example_macOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B71B816BD0CFFB43D1C5C16 /* Pods-KalturaClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Tests/Pods-KalturaClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE8E0B6C95CC113DDE8608B /* Pods-KalturaClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example/Pods-KalturaClient_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KalturaClient_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalturaClient_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,8 +82,20 @@
 		607FACE51AFB9204008FA782 /* KalturaClient_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalturaClient_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		7024A39A4B7E9B6F57FB1FAF /* Pods-KalturaClient_Example_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example_macOS/Pods-KalturaClient_Example_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4238C09F2E13639C108636 /* Pods_KalturaClient_Example_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalturaClient_Example_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		900A6BC924A25CEE0030AC87 /* HouseholdTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseholdTest.swift; sourceTree = "<group>"; };
 		90AB8F9024AC92E200A40CFA /* EmptyResultTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResultTest.swift; sourceTree = "<group>"; };
+		90C446B224D1B3050020B8C4 /* KalturaClient_Example_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalturaClient_Example_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C446B424D1B3050020B8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90C446B624D1B3050020B8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90C446B824D1B3080020B8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90C446BB24D1B3080020B8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90C446BD24D1B3080020B8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C446BE24D1B3080020B8C4 /* KalturaClient_Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KalturaClient_Example_macOS.entitlements; sourceTree = "<group>"; };
+		90C446C324D1B3080020B8C4 /* KalturaClient_Example_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalturaClient_Example_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C446C724D1B3080020B8C4 /* KalturaClient_Example_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalturaClient_Example_macOSTests.swift; sourceTree = "<group>"; };
+		90C446C924D1B3080020B8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EEB332DC79B29F3773EBDAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A828660A1AF9647D2ABD0F59 /* Pods_KalturaClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalturaClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33E0750ECAFC8D9419D0E2D /* KalturaOttClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KalturaOttClient.podspec; path = ../KalturaOttClient.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -68,6 +107,7 @@
 		C28D3AD71F38ACB0001D2A03 /* MultiRequestWithArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiRequestWithArray.swift; sourceTree = "<group>"; };
 		C28D3AD91F38ACC7001D2A03 /* MultiRequestWithPrimitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiRequestWithPrimitives.swift; sourceTree = "<group>"; };
 		C4D209549F925E3CB611747F /* Pods-KalturaClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaClient_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KalturaClient_Example/Pods-KalturaClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3B5C4B236BCF4BF0CAED57 /* Pods_KalturaClient_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalturaClient_Example_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +127,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C446AF24D1B3050020B8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6D22649B61EC790E4A2F0E /* Pods_KalturaClient_Example_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C446C024D1B3080020B8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793F5F1526CF4C4730954E47 /* Pods_KalturaClient_Example_macOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,6 +152,8 @@
 				001416C11F1F892700CD4112 /* XCTest.framework */,
 				A828660A1AF9647D2ABD0F59 /* Pods_KalturaClient_Example.framework */,
 				BA7C1EFC72FAE951883B0985 /* Pods_KalturaClient_Tests.framework */,
+				CD3B5C4B236BCF4BF0CAED57 /* Pods_KalturaClient_Example_macOS.framework */,
+				8D4238C09F2E13639C108636 /* Pods_KalturaClient_Example_macOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +164,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for KalturaClient */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				90C446B324D1B3050020B8C4 /* KalturaClient_Example_macOS */,
+				90C446C624D1B3080020B8C4 /* KalturaClient_Example_macOSTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				7926491686FFF4D844DE2510 /* Pods */,
 				1D9E993819FC64C985503F2C /* Frameworks */,
@@ -117,6 +177,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* KalturaClient_Example.app */,
 				607FACE51AFB9204008FA782 /* KalturaClient_Tests.xctest */,
+				90C446B224D1B3050020B8C4 /* KalturaClient_Example_macOS.app */,
+				90C446C324D1B3080020B8C4 /* KalturaClient_Example_macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,8 +249,34 @@
 				5FE8E0B6C95CC113DDE8608B /* Pods-KalturaClient_Example.release.xcconfig */,
 				B9C640C657C2B5A040083AF5 /* Pods-KalturaClient_Tests.debug.xcconfig */,
 				5B71B816BD0CFFB43D1C5C16 /* Pods-KalturaClient_Tests.release.xcconfig */,
+				7024A39A4B7E9B6F57FB1FAF /* Pods-KalturaClient_Example_macOS.debug.xcconfig */,
+				114D3481686051612EC5F019 /* Pods-KalturaClient_Example_macOS.release.xcconfig */,
+				0C2973FEEE6286FF555C1994 /* Pods-KalturaClient_Example_macOSTests.debug.xcconfig */,
+				285A512602D36A12E5E768C1 /* Pods-KalturaClient_Example_macOSTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		90C446B324D1B3050020B8C4 /* KalturaClient_Example_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				90C446B424D1B3050020B8C4 /* AppDelegate.swift */,
+				90C446B624D1B3050020B8C4 /* ViewController.swift */,
+				90C446B824D1B3080020B8C4 /* Assets.xcassets */,
+				90C446BA24D1B3080020B8C4 /* Main.storyboard */,
+				90C446BD24D1B3080020B8C4 /* Info.plist */,
+				90C446BE24D1B3080020B8C4 /* KalturaClient_Example_macOS.entitlements */,
+			);
+			path = KalturaClient_Example_macOS;
+			sourceTree = "<group>";
+		};
+		90C446C624D1B3080020B8C4 /* KalturaClient_Example_macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				90C446C724D1B3080020B8C4 /* KalturaClient_Example_macOSTests.swift */,
+				90C446C924D1B3080020B8C4 /* Info.plist */,
+			);
+			path = KalturaClient_Example_macOSTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,13 +321,52 @@
 			productReference = 607FACE51AFB9204008FA782 /* KalturaClient_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		90C446B124D1B3050020B8C4 /* KalturaClient_Example_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C446CA24D1B3080020B8C4 /* Build configuration list for PBXNativeTarget "KalturaClient_Example_macOS" */;
+			buildPhases = (
+				159FB3115C9E0BBC2124E202 /* [CP] Check Pods Manifest.lock */,
+				90C446AE24D1B3050020B8C4 /* Sources */,
+				90C446AF24D1B3050020B8C4 /* Frameworks */,
+				90C446B024D1B3050020B8C4 /* Resources */,
+				D65485A182CDEEDFB5E76E48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalturaClient_Example_macOS;
+			productName = KalturaClient_Example_macOS;
+			productReference = 90C446B224D1B3050020B8C4 /* KalturaClient_Example_macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90C446C224D1B3080020B8C4 /* KalturaClient_Example_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C446CD24D1B3080020B8C4 /* Build configuration list for PBXNativeTarget "KalturaClient_Example_macOSTests" */;
+			buildPhases = (
+				5079853352AE6F0DA009CAFB /* [CP] Check Pods Manifest.lock */,
+				90C446BF24D1B3080020B8C4 /* Sources */,
+				90C446C024D1B3080020B8C4 /* Frameworks */,
+				90C446C124D1B3080020B8C4 /* Resources */,
+				0F0762253648012482902B94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C446C524D1B3080020B8C4 /* PBXTargetDependency */,
+			);
+			name = KalturaClient_Example_macOSTests;
+			productName = KalturaClient_Example_macOSTests;
+			productReference = 90C446C324D1B3080020B8C4 /* KalturaClient_Example_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -251,6 +378,17 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1100;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					90C446B124D1B3050020B8C4 = {
+						CreatedOnToolsVersion = 11.6;
+						DevelopmentTeam = BT5J4WV2RB;
+						ProvisioningStyle = Automatic;
+					};
+					90C446C224D1B3080020B8C4 = {
+						CreatedOnToolsVersion = 11.6;
+						DevelopmentTeam = BT5J4WV2RB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90C446B124D1B3050020B8C4;
 					};
 				};
 			};
@@ -269,6 +407,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* KalturaClient_Example */,
 				607FACE41AFB9204008FA782 /* KalturaClient_Tests */,
+				90C446B124D1B3050020B8C4 /* KalturaClient_Example_macOS */,
+				90C446C224D1B3080020B8C4 /* KalturaClient_Example_macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,9 +432,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C446B024D1B3050020B8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C446B924D1B3080020B8C4 /* Assets.xcassets in Resources */,
+				90C446BC24D1B3080020B8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C446C124D1B3080020B8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C446D024D1B8C50020B8C4 /* TestConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F0762253648012482902B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Example_macOSTests/Pods-KalturaClient_Example_macOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KalturaOttClient-macOS/KalturaOttClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Log-macOS/Log.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-macOS/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KalturaOttClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Example_macOSTests/Pods-KalturaClient_Example_macOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		159FB3115C9E0BBC2124E202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalturaClient_Example_macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3FA98E10F1DA36D1E5E82A7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,10 +505,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Tests/Pods-KalturaClient_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KalturaOttClient/KalturaOttClient.framework",
-				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/KalturaOttClient-iOS/KalturaOttClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Log-iOS/Log.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -317,6 +520,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Tests/Pods-KalturaClient_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5079853352AE6F0DA009CAFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalturaClient_Example_macOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		726EDAE593CBBDEE85EC36CC /* [CP] Check Pods Manifest.lock */ = {
@@ -337,6 +562,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D65485A182CDEEDFB5E76E48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Example_macOS/Pods-KalturaClient_Example_macOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KalturaOttClient-macOS/KalturaOttClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Log-macOS/Log.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KalturaOttClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Example_macOS/Pods-KalturaClient_Example_macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D994328B7BA7E3F992C2A46A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,8 +589,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KalturaClient_Example/Pods-KalturaClient_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KalturaOttClient/KalturaOttClient.framework",
-				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
+				"${BUILT_PRODUCTS_DIR}/KalturaOttClient-iOS/KalturaOttClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Log-iOS/Log.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -404,6 +649,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90C446AE24D1B3050020B8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C446B724D1B3050020B8C4 /* ViewController.swift in Sources */,
+				90C446B524D1B3050020B8C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C446BF24D1B3080020B8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C446D924D1B8D30020B8C4 /* BaseTest.swift in Sources */,
+				90C446DA24D1B8D30020B8C4 /* EmptyResultTest.swift in Sources */,
+				90C446D424D1B8D30020B8C4 /* MultiRequestWithArray.swift in Sources */,
+				90C446D124D1B8D30020B8C4 /* HouseholdTest.swift in Sources */,
+				90C446D324D1B8D30020B8C4 /* MultiRequestWithPrimitives.swift in Sources */,
+				90C446D824D1B8D30020B8C4 /* PrimitivesTest.swift in Sources */,
+				90C446D624D1B8D30020B8C4 /* MapTest.swift in Sources */,
+				90C446D724D1B8D30020B8C4 /* MultiRequestTest.swift in Sources */,
+				90C446D224D1B8D30020B8C4 /* TestConfig.swift in Sources */,
+				90C446D524D1B8D30020B8C4 /* ArrayTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -411,6 +682,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* KalturaClient_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		90C446C524D1B3080020B8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90C446B124D1B3050020B8C4 /* KalturaClient_Example_macOS */;
+			targetProxy = 90C446C424D1B3080020B8C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,6 +705,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		90C446BA24D1B3080020B8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C446BB24D1B3080020B8C4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -603,6 +887,126 @@
 			};
 			name = Release;
 		};
+		90C446CB24D1B3080020B8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7024A39A4B7E9B6F57FB1FAF /* Pods-KalturaClient_Example_macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KalturaClient_Example_macOS/KalturaClient_Example_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BT5J4WV2RB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KalturaClient_Example_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaltura.sample.KalturaClient-Example-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90C446CC24D1B3080020B8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114D3481686051612EC5F019 /* Pods-KalturaClient_Example_macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KalturaClient_Example_macOS/KalturaClient_Example_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BT5J4WV2RB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KalturaClient_Example_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaltura.sample.KalturaClient-Example-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		90C446CE24D1B3080020B8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2973FEEE6286FF555C1994 /* Pods-KalturaClient_Example_macOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BT5J4WV2RB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KalturaClient_Example_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaltura.sample.KalturaClient-Example-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalturaClient_Example_macOS.app/Contents/MacOS/KalturaClient_Example_macOS";
+			};
+			name = Debug;
+		};
+		90C446CF24D1B3080020B8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285A512602D36A12E5E768C1 /* Pods-KalturaClient_Example_macOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BT5J4WV2RB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KalturaClient_Example_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaltura.sample.KalturaClient-Example-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalturaClient_Example_macOS.app/Contents/MacOS/KalturaClient_Example_macOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -629,6 +1033,24 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C446CA24D1B3080020B8C4 /* Build configuration list for PBXNativeTarget "KalturaClient_Example_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C446CB24D1B3080020B8C4 /* Debug */,
+				90C446CC24D1B3080020B8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C446CD24D1B3080020B8C4 /* Build configuration list for PBXNativeTarget "KalturaClient_Example_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C446CE24D1B3080020B8C4 /* Debug */,
+				90C446CF24D1B3080020B8C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
