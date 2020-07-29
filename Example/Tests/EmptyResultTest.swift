@@ -58,7 +58,8 @@ class EmptyResultTest: QuickSpec {
                         })
                     }
                 })
-                
+                /*
+                // Currently we ned only "Update password with error" testcase to check NullRequest.
                 it("Delete Password Policy with error", closure: {
                     waitUntil(timeout: 500) { done in
                         self.deletePasswordPolicy(completed: { (error:ApiException?) in
@@ -69,7 +70,7 @@ class EmptyResultTest: QuickSpec {
                         })
                     }
                 })
-                
+                */
                 it("Clean Asset history with sucess", closure: {
                     waitUntil(timeout: 500) { done in
                         self.cleanAssetHistory(completed: { (error:ApiException?) in
