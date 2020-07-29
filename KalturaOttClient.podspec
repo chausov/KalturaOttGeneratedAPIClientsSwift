@@ -8,6 +8,7 @@ s.author           = { 'Kaltura' => 'community@kaltura.com' }
 s.source           = { :git => 'https://github.com/kaltura/KalturaOttGeneratedAPIClientsSwift.git', :tag => s.version.to_s }
 s.ios.deployment_target = '8.0'
 s.tvos.deployment_target = '10.0'
+s.macos.deployment_target = '10.13'
 s.source_files = 'KalturaClient/Classes/**/*'
 s.swift_version = '5.0'
 
