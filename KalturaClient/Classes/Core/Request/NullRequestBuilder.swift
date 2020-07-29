@@ -50,5 +50,4 @@ public class NullRequestBuilder<G: BaseTokenizedObject>: RequestBuilder<Void, Ba
         self.completionWitError = completionWitError
         return self
     }
-    
 }
