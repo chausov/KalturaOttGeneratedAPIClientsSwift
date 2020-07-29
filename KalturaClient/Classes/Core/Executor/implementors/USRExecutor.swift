@@ -196,10 +196,11 @@
     public func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Swift.Void){
         
     }
-    
+    #if !os(macOS)
     public func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession){
         
     }
+    #endif
 }
 
 extension NSMutableData {

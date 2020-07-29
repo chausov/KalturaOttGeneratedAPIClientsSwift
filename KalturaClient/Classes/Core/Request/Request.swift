@@ -35,9 +35,9 @@
  *
  * MANUAL CHANGES TO THIS CLASS WILL BE OVERWRITTEN.
  */
-
+#if !os(macOS)
 import MobileCoreServices
-
+#endif
 public typealias CompletionClosures =  (_ response: Result<Any>) -> Void
 
 public enum RequestMethod {

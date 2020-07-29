@@ -5,9 +5,9 @@
 //  Created by Rivka Peleg on 10/08/2017.
 //
 //
-
+#if !os(macOS)
 import UIKit
-
+#endif
 public class BaseTokenizedObject {
     
     internal var requestId: Int = 0
