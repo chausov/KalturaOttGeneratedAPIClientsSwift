@@ -81,7 +81,7 @@ class HouseholdTest: QuickSpec {
                     }
                 }
                 
-                it("D, Logged out", closure: {
+                it("Z, Logged out", closure: {
                     waitUntil(timeout: 500) { done in
                         self.logout { (loggedOut, error) in
                             expect(error).to(beNil())

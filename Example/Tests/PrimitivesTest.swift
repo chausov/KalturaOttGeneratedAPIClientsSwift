@@ -70,15 +70,17 @@ class PrimitivesTest: QuickSpec {
                     }
                 })
                 
-                it("needs to return Void value", closure: {
+                // These test needed only to check a NullResponse return type.
+                it("Needs to return only Error value", closure: {
                     waitUntil(timeout: 500) { done in
-                        self.updatePassword(completed: { (result:Void?, error:ApiException?) in
-                            expect(error).to(beNil())
-                            expect(result).to(beNil())
+                        self.updatePassword(completed: { (error: ApiException?) in
+                            expect(error).notTo(beNil())
+                            expect(error?.code).to(be("500004"))
                             done()
                         })
                     }
                 })
+                
                 /*
                 it("needs to return manifest") {
                     waitUntil(timeout: 500) { done in
@@ -132,13 +134,15 @@ class PrimitivesTest: QuickSpec {
     }
     
     
-    private func updatePassword(completed: @escaping (_ result: Void?, _ error: ApiException?) -> Void) {
+    private func updatePassword(completed: @escaping (_ error: ApiException?) -> Void) {
         
         let getUserInfo = OttUserService.get().set { (user, error) in
             
             if let u = user {
-                let updatePassword = OttUserService.updatePassword(userId: Int((u.id!))!, password: TConfig.password).set { (result:Void?, error:ApiException?) in
-                    completed(result, error)
+                let updatePassword = OttUserService.updatePassword(userId: Int((u.id!))!, password: TConfig.password)
+                
+                updatePassword.set { (error) in
+                    completed(error)
                 }
                 
                 self.executor.send(request: updatePassword.build(self.client!))
